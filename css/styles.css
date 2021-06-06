@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    margin: 100px;
+    padding: 10px;
+    height: 500px;
+    text-align: center;
+    border: 2px solid #fff;
+    background-color: #333;
+}
+
+.container #head{
+    color: #2a6aaa;
+    font-size: 50px;
+}
+
+.container .linda{
+    margin: 10px;
+    padding: 40px;
+}
+
+.container input{
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid black;
+    height: 40px;
+    width: 350px;
+}
+.container label{
+    color: #2a6aaa;
+    font-size: 25px;
+}
+.container button{
+    display: inline-block;
+    text-decoration: none;
+    color: #ecf0f1;
+    background-color: #2a6aaa;
+    padding: 1rem;
+    margin-top: 1rem;
+    transition: 0.3s ease;
+    outline: none;
+    border: none;
+}
+
+  .btn:hover {
+    
+    letter-spacing: 2px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+  }
